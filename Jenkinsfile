@@ -17,6 +17,11 @@ pipeline {
                         echo "Deploying in Staging Area"
                   }
             }
+            stage('Nishad') {
+            	  steps {
+            	  	     echo "Hi my name is Nishad"
+            	  }
+            }
             
 
       }
